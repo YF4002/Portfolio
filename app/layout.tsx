@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 		title: '[Your Name] - Developer Portfolio',
 		description: 'Passionate developer creating simple and effective solutions. Explore my projects and development approach.',
 		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		siteName: 'Yahaya Fofana Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',

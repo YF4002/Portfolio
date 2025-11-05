@@ -63,7 +63,7 @@ const SkillsSection = () => {
 	];
 
 return (
-	   <section className="pt-2 pb-6 px-6 bg-white dark:bg-gray-900 flex-1 flex flex-col justify-end"> {/* Fills remaining space */}
+	<section className="pt-2 pb-6 px-6 bg-white dark:bg-gray-900 flex-1 flex flex-col justify-start"> {/* Align to top so it sits directly after Education */}
 			<div className="max-w-3xl mx-auto space-y-5">
 				<header>
 					<h3 className="text-xl font-semibold text-gray-900 dark:text-white text-center md:text-left">Core Skills</h3>

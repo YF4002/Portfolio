@@ -21,14 +21,15 @@ export default function MinimalistPortfolio() {
 					   {/* Right Column - Projects and Experience */}
 					   <div className="md:col-span-3 flex flex-col h-full flex-1">
 							   <div className="flex flex-col flex-1">
+									   {/* Experience Section */}
+									   <div>
+										   <ExperienceSection />
+
+									   </div>
+
 									   {/* Projects Section */}
 									   <div>
 											   <ProjectsSection />
-									   </div>
-
-									   {/* Experience Section */}
-									   <div>
-											   <ExperienceSection />
 									   </div>
 							   </div>
 					   </div>

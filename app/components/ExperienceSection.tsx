@@ -1,6 +1,20 @@
 const ExperienceSection = () => {
 	const experiences = [
 		{
+			role: 'Developer Apprentice',
+			company: 'Digital Corps — Muncie, IN',
+			period: 'Sep 2025 – Present',
+			highlights:
+				'Design, develop, and deploy full-stack web applications and tools for 19,000+ students, staff, and faculty, turning designs into reliable, user-friendly digital solutions. Collaborate with university partners, applying logical thinking, problem-solving, and detail-oriented development to deliver creative solutions on fast-paced, evolving project timelines.',
+		},
+		{
+			role: 'Undergraduate Data Science Researcher',
+			company: 'The Data Mine — Purdue University, West Lafayette, IN',
+			period: 'Aug 2025 – Present',
+			highlights:
+				"Partnered with BASF to design data-driven solutions for customer segmentation and regional grower personas, aligning business problems with technical insights. Applied Python, SQL, and Spark on large demographic and geospatial datasets to uncover adoption patterns in agricultural technology. Leveraged Databricks notebooks for scalable analysis and Tableau/Power BI for interactive visualizations supporting strategic decisions.",
+		},
+		{
 			role: 'AI and Automation Extern',
 			company: 'Outamation',
 			period: 'Jul 2025 – Present',

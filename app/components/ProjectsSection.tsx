@@ -1,6 +1,22 @@
 const ProjectsSection = () => {
 	const projects = [
 		{
+			title: 'Clearer Skies Indy (NASA Space Apps Challenge – 2nd Place)',
+			period: 'Oct 2025',
+			description:
+				'Developed a web app aggregating real-time air quality, humidity, and wind data from multiple APIs (WAQI, Meteomatics, NASA Earth Data, NewsAPI) with interactive visualizations using Leaflet.js, Recharts, and Material-UI. Built backend services with Spring Boot, Java, and Node.js and deployed on Google Cloud with Docker, ensuring timely, accurate environmental data delivery. Implemented an opt-in text alert system notifying users of hazardous air quality, promoting community awareness and engagement.',
+			technologies: ['React', 'Node.js', 'Spring Boot', 'Google Cloud', 'Docker', 'Leaflet.js', 'Recharts', 'Material-UI'],
+			link: '#',
+		},
+		{
+			title: 'PDF Retrieval-Augmented Generation Pipeline',
+			period: 'Sep 2025',
+			description:
+				'Developed pipelines to parse and process unstructured PDFs into structured datasets for downstream analytics. Implemented hybrid retrieval (vector + BM25) with reranking, improving query accuracy on large enterprise document sets. Connected pipeline to LLMs for business intelligence applications, demonstrating modern data architecture practices.',
+			technologies: ['Python', 'LlamaIndex', 'HuggingFace', 'Databricks', 'BM25', 'Vector Search'],
+			link: '#',
+		},
+		{
 			title: 'Credit Card Fraud Detection with Random Forest',
 			period: '2024',
 			description:

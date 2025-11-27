@@ -2,6 +2,7 @@
 import ProfileSection from './components/ProfileSection';
 import EducationSection from './components/EducationSection';
 import SkillsSection from './components/SkillsSection';
+import Volunteer from './components/Volunteer';
 import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
 
@@ -13,8 +14,9 @@ export default function MinimalistPortfolio() {
 					   <div className="md:col-span-2 border-b md:border-b-0 md:border-r border-gray-200 dark:border-gray-800 flex flex-col h-full flex-1">
 							   <div className="flex flex-col flex-1">
 									   <ProfileSection />
-									   <EducationSection />
+									<EducationSection />
 									   <SkillsSection />
+									   <Volunteer />
 							   </div>
 					   </div>
 

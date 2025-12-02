@@ -63,7 +63,7 @@ const ProfileSection = () => {
 					</div>
 				</div>
 			   {/* Resume Links */}
-			   <div className="pt 10 space-y-2">
+			   {/* <div className="pt 10 space-y-2">
 					<h3 className="text-sm font-semibold text-gray-900 dark:text-white">Resumes</h3>
 					<div className="flex justify-center gap-4 flex-wrap text-sm">
 						<a
@@ -83,7 +83,7 @@ const ProfileSection = () => {
 							Data-Focused Resume
 						</a>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

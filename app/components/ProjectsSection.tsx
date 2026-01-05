@@ -1,12 +1,22 @@
 const ProjectsSection = () => {
 	const projects = [
 		{
+			title: 'Soccer Player Performance Analyzer',
+			period: 'Jan 2026',
+			description:
+				'Developed an interactive R Shiny web application to visualize and compare FIFA player statistics using radar plots, processing 183,978 player attribute records from 11,060 players across 35 performance metrics. '+
+				' Engineered SQLite database integration with automated data preprocessing pipelines, implementing statistical normalization and feature engineering to support multi-dimensional player comparisons.'+
+				' Built dynamic UI with real-time filtering, checkbox-based selection, and customizable visualizations, enabling users to compare up to 4 players across 6 metrics with exportable PNG/CSV outputs for sports analytics and scouting use cases.',
+			technologies: ['R', 'Shiny', 'SQLite', 'Data Visualization', 'Statistical Analysis','fmsb', 'dplyr', 'DT'],
+			link: 'https://yahaya-ffa.shinyapps.io/Soccer_Players_Performance_Analyzer/',
+		},
+		{
 			title: 'Clearer Skies Indy (NASA Space Apps Challenge – 2nd Place)',
 			period: 'Oct 2025',
 			description:
 				'Developed a web app aggregating real-time air quality, humidity, and wind data from multiple APIs (WAQI, Meteomatics, NASA Earth Data, NewsAPI) with interactive visualizations using Leaflet.js, Recharts, and Material-UI. Built backend services with Spring Boot, Java, and Node.js and deployed on Google Cloud with Docker, ensuring timely, accurate environmental data delivery. Implemented an opt-in text alert system notifying users of hazardous air quality, promoting community awareness and engagement.',
 			technologies: ['React', 'Node.js', 'Spring Boot', 'Google Cloud', 'Docker', 'Leaflet.js', 'Recharts', 'Material-UI'],
-			link: '#',
+			link: 'https://www.clearskiesindy.earth/',
 		},
 		{
 			title: 'PDF Retrieval-Augmented Generation Pipeline',
@@ -14,7 +24,7 @@ const ProjectsSection = () => {
 			description:
 				'Developed pipelines to parse and process unstructured PDFs into structured datasets for downstream analytics. Implemented hybrid retrieval (vector + BM25) with reranking, improving query accuracy on large enterprise document sets. Connected pipeline to LLMs for business intelligence applications, demonstrating modern data architecture practices.',
 			technologies: ['Python', 'LlamaIndex', 'HuggingFace', 'Databricks', 'BM25', 'Vector Search'],
-			link: '#',
+			link: 'https://github.com/YF4002/PDF-Retrieval-Augmented-Generation-RAG-Pipeline',
 		},
 		{
 			title: 'Credit Card Fraud Detection with Random Forest',
@@ -22,7 +32,7 @@ const ProjectsSection = () => {
 			description:
 				'Built a machine learning model using Random Forest Classifier to detect credit card fraud, improving detection accuracy on transactional data.',
 			technologies: ['Python', 'Machine Learning', 'Random Forest', 'Scikit-learn'],
-			link: '#',
+			link: 'https://github.com/YF4002/CreditCardFraudDetection',
 		},
 		{
 			title: 'GroupSync - Social Networking Application',
@@ -30,7 +40,7 @@ const ProjectsSection = () => {
 			description:
 				'Developed a Java-based desktop app allowing users to create profiles, join groups, and connect with others based on shared interests.',
 			technologies: ['Java', 'Swing', 'Desktop Application'],
-			link: '#',
+			link: 'https://github.com/YF4002/GroupSync',
 		},
 		{
 			title: 'AI ChatBot',
@@ -38,7 +48,7 @@ const ProjectsSection = () => {
 			description:
 				'Built a full-stack intelligent customer support chatbot using Next.js, React, Node.js, and Gemini AI to enhance user interaction and automate support.',
 			technologies: ['Next.js', 'React', 'Node.js', 'Gemini AI'],
-			link: '#',
+			link: 'https://github.com/YF4002/Ai-Chatbot',
 		},
 		{
 			title: 'TalkSphere - Full-Stack Social Networking Platform',
@@ -46,7 +56,7 @@ const ProjectsSection = () => {
 			description:
 				'Created a dynamic social networking web app using HTML, CSS, JavaScript, jQuery, PHP, and MySQL from scratch.',
 			technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'PHP', 'MySQL'],
-			link: '#',
+			link: 'https://github.com/YF4002/TalkSphere',
 		},
 	];
 
